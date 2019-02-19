@@ -12,31 +12,29 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="mx-auto order-0">
-            <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-
-        <div class="collapse navbar-collapse  w-100 order-3 " id="navbarTogglerDemo03">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(Actual)</span></a>
-                </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0 mr-2">
+            <ul class="navbar-nav ml-auto text-center">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Precios</a>
+                    <a class="nav-link" href="#">Caracteristicas</a>
                 </li>
+            </ul>
+        </div>
+        <div class="mx-auto my-2 order-0 order-md-1 position-relative">
+            <a class="mx-auto" href="#">
+                <img src="assets/images/logo.png" height="36px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2 ml-2">
+            <ul class="navbar-nav mr-auto text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Clientes</a>
+                    <a class="nav-link" href="#">Precios</a>
                 </li>
             </ul>
         </div>
