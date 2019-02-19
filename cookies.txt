@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.tidio.co	TRUE	/	FALSE	1999999999	__cfduid	d8a8bdb6c1ad8d19f68401c07274c685b1550606784
+.tidiochat.com	TRUE	/	FALSE	1999999999	__cfduid	dfdad223601eec91c5a83fa483bd263131550606785
+.hs-scripts.com	TRUE	/	FALSE	1999999999	__cfduid	d5941565cfa7d7f247611b8200a804de71550606907
+

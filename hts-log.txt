@@ -1,0 +1,58 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 19 Feb 2019 17:06:07 at http://motions.graphics/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://motions.graphics/ -O1 "C:\Users\Nico\Documents\GitHub\website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:06:07	Warning: 	Note: due to motions.graphics remote robots.txt rules, links beginning with these path will be forbidden: /motion2018/ (see in the options to disable this)
+17:08:34	Error: 	"Method Not Allowed" (405) at link motions.graphics/xmlrpc.php (from motions.graphics/)
+17:09:53	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/cache/busting/1/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min-5.4.6.6.js (from motions.graphics/)
+17:09:53	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-json/ (from motions.graphics/)
+17:09:53	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-includes/wlwmanifest.xml (from motions.graphics/)
+17:09:54	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from motions.graphics/)
+17:12:47	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/plugins/revslider/admin/assets/images/transparent.png (from motions.graphics/)
+17:12:48	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2018/03/ninja-500x500.jpg (from motions.graphics/)
+17:12:52	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/3arauco-2-0-00-59-03-1-700x700-0-00-02-24-500x500.png (from motions.graphics/)
+17:12:53	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2018/09/MotelNow.00_04_18_02.Still008-500x500.jpg (from motions.graphics/)
+17:12:54	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/07/7-rubi-500x500.jpg (from motions.graphics/)
+17:12:55	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-includes/js/comment-reply.min.js (from motions.graphics/)
+17:12:55	Error: 	"Not Found" (404) at link https://i.ytimg.com/vi/ID/hqdefault.jpg (from motions.graphics/)
+17:12:55	Warning: 	File not parsed, looks like binary: motions.graphics/wp-content/themes/lotek/lotek/fonts/glyphicons-halflings-regular.woff2
+17:12:56	Warning: 	File not parsed, looks like binary: motions.graphics/wp-content/themes/lotek/lotek/fonts/fontawesome-webfont.woff2?v=4.5.0
+17:12:56	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/themes/lotek/lotek/fonts/fontawesome-webfont.svg?v=4.5.0 (from motions.graphics/wp-content/cache/min/1/8dddbcd9822d62aa587c1451be17f53d.css)
+17:13:00	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/themes/lotek/lotek/images/prettyPhoto/light_rounded/btnNext.png (from motions.graphics/wp-content/cache/min/1/8dddbcd9822d62aa587c1451be17f53d.css)
+17:13:01	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/themes/lotek/lotek/images/prettyPhoto/light_rounded/btnPrevious.png (from motions.graphics/wp-content/cache/min/1/8dddbcd9822d62aa587c1451be17f53d.css)
+17:13:01	Warning: 	File not parsed, looks like binary: motions.graphics/wp-content/plugins/revslider/public/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0
+17:13:01	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/plugins/js_composer/assets/lib/prettyphoto/images/prettyPhoto/default/sprite_y.png (from motions.graphics/wp-content/cache/min/1/8dddbcd9822d62aa587c1451be17f53d.css)
+17:13:01	Error: 	"Not Found" (404) at link motions.graphics/POST (from https://connect.facebook.net/en_US/fbevents.js)
+17:13:02	Warning: 	Moved Permanently for motions.graphics/?p=550
+17:13:02	Warning: 	File has moved from motions.graphics/?p=550 to http://motions.graphics/3d/
+17:13:02	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/IMG-20170127-WA0004-2.jpg (from motions.graphics/3d/)
+17:13:02	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/living-2-500x500.jpg (from motions.graphics/3d/)
+17:13:02	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/1-2.jpg (from motions.graphics/3d/)
+17:13:02	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/0-1.jpg (from motions.graphics/3d/)
+17:13:02	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/chevy_pro-500x500.jpg (from motions.graphics/3d/)
+17:13:03	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/rainbow-500x500.jpg (from motions.graphics/3d/)
+17:13:07	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/chair-500x500.jpg (from motions.graphics/3d/)
+17:13:08	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/carro-500x500.jpg (from motions.graphics/3d/)
+17:13:09	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/gumball-500x500.jpg (from motions.graphics/3d/)
+17:13:09	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/landscape-500x500.jpg (from motions.graphics/3d/)
+17:13:13	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/12622377_10207772902098031_7214651600196336722_o-500x500.jpg (from motions.graphics/3d/)
+17:13:13	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/Untitled-1-500x500.jpg (from motions.graphics/3d/)
+17:13:14	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/san-borja-500x500.jpg (from motions.graphics/3d/)
+17:13:14	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/cache/min/1/wp-content/themes/lotek/lotek/js/bgslider/bgSlider-ec167fe64ab3d101a4ad5e7daa26febb.js (from motions.graphics/3d/)
+17:13:15	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/07/7-rubi-500x500.jpg (from motions.graphics/)
+17:13:21	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/IMG-20170127-WA0004-2.jpg (from motions.graphics/3d/)
+17:13:21	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/10/living-2-500x500.jpg (from motions.graphics/3d/)
+17:13:21	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/chair-500x500.jpg (from motions.graphics/3d/)
+17:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/gumball-500x500.jpg (from motions.graphics/3d/)
+17:13:22	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/12622377_10207772902098031_7214651600196336722_o-500x500.jpg (from motions.graphics/3d/)
+17:13:24	Warning: 	Retry after error -4 (No data (connection closed)) at link motions.graphics/wp-content/uploads/2017/09/san-borja-500x500.jpg (from motions.graphics/3d/)
+17:13:24	Error: 	"No data (connection closed)" (-4) after 2 retries at link motions.graphics/wp-content/uploads/2017/10/IMG-20170127-WA0004-2.jpg (from motions.graphics/3d/)
+17:13:30	Error: 	"No data (connection closed)" (-4) after 2 retries at link motions.graphics/wp-content/uploads/2017/09/gumball-500x500.jpg (from motions.graphics/3d/)
+17:13:30	Error: 	"No data (connection closed)" (-4) after 2 retries at link motions.graphics/wp-content/uploads/2017/09/san-borja-500x500.jpg (from motions.graphics/3d/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 23 seconds : 290 links scanned, 247 files written (14831893 bytes overall) [11138296 bytes received at 25142 bytes/sec], 5632485 bytes transferred using HTTP compression in 69 files, ratio 32%, 3.5 requests per connection
+(7 errors, 40 warnings, 0 messages)
