@@ -2,7 +2,7 @@
   "name": "SmartLoan",
   "short_name": "SmartLoan",
   "theme_color": "#26a69a",
-  "background_color": "#26a69a",
+  "background_color": "#fff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
