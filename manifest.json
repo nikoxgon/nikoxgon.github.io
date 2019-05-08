@@ -1,8 +1,8 @@
 {
-  "name": "app",
-  "short_name": "app",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "SmartLoan",
+  "short_name": "SmartLoan",
+  "theme_color": "#26a69a",
+  "background_color": "#26a69a",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
