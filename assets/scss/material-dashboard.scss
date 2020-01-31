@@ -1,0 +1,185 @@
+/*!
+
+ =========================================================
+ * Material Dashboard PRO Angular - v2.3.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/material-dashboard-pro-angular2
+ * Copyright 2019 Creative Tim (https://www.creative-tim.com)
+
+ * Coded by Creative Tim
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+@import 'core/variables';
+@import 'core/mixins';
+@import '~bootstrap/scss/bootstrap';
+@import 'core/reboot';
+
+// Core Components
+@import 'core/layout';
+@import 'core/buttons';
+@import 'core/checkboxes';
+@import 'dashboard/cards';
+@import 'core/custom-forms';
+@import 'core/switches';
+@import 'core/example-pages';
+@import 'core/radios';
+@import 'core/carousel';
+@import 'dashboard/forms';
+@import 'core/input-group';
+@import 'core/list-group';
+@import 'core/nav';
+@import 'core/images';
+@import 'dashboard/navbar';
+@import 'core/badges';
+@import 'dashboard/alerts';
+@import 'core/pagination';
+@import 'core/pills';
+@import 'core/info-areas';
+@import 'core/type';
+@import 'core/tabs';
+@import 'core/footers';
+@import 'core/tooltip';
+@import 'core/popover';
+@import 'core/modal';
+@import 'core/dropdown';
+@import 'core/headers';
+@import 'core/drawer';
+@import 'core/progress';
+@import 'core/togglebutton';
+@import 'core/ripples';
+@import 'dashboard/rtl';
+@import 'dashboard/sidebar-and-main-panel';
+@import 'dashboard/timeline';
+@import 'dashboard/fixed-plugin';
+@import 'dashboard/tables';
+@import 'dashboard/misc';
+@import 'dashboard/pages';
+
+// Components for PRO
+@import 'dashboard/social-buttons';
+@import 'dashboard/fileupload';
+
+//plugin css
+@import 'plugins/plugin-nouislider';
+@import 'plugins/animate';
+@import 'plugins/sweetalert2';
+// @import "plugins/datatables.net";
+@import 'plugins/jquery.jvectormap';
+@import 'plugins/plugin-datetime-picker';
+@import 'plugins/fullcalendar';
+@import 'plugins/wizard-card';
+@import 'plugins/chartist';
+// @import '~chartist/dist/scss/chartist';
+@import 'plugins/select-bootstrap';
+@import 'plugins/perfect-scrollbar';
+@import 'plugins/plugin-tagsinput';
+
+@import 'dashboard/responsive';
+
+@import '~@ag-grid-community/all-modules/dist/styles/ag-grid.css';
+@import '~@ag-grid-community/all-modules/dist/styles/ag-theme-balham.css';
+@import '~@ag-grid-community/all-modules/dist/styles/ag-theme-material.css';
+
+// Import library functions for theme creation.
+@import '~@angular/material/theming';
+
+@import '~ngx-smart-modal/ngx-smart-modal';
+
+// Include non-theme styles for core.
+@include mat-core();
+
+// Define your application's custom theme.
+$primary: mat-palette($mat-green);
+$accent: mat-palette($mat-orange, A200, A100, A400);
+$warn: mat-palette($mat-orange);
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include mat-checkbox-theme($theme);
+
+// Include theme styles for Angular Material components.
+@include angular-material-theme($theme);
+
+::ng-deep .mat-checkbox-checked.mat-accent .mat-checkbox-background,
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background,
+.mat-accent .mat-pseudo-checkbox-checked,
+.mat-accent .mat-pseudo-checkbox-indeterminate,
+.mat-pseudo-checkbox-checked,
+.mat-pseudo-checkbox-indeterminate {
+  background-color: red !important;
+  /* Red background for example */
+}
+
+.ag-floating-filter-button {
+  margin-left: 0 !important;
+}
+
+.ag-theme-material .ag-header-cell {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.ag-header-cell-label .ag-header-cell-text {
+  white-space: normal;
+}
+
+.ag-theme-balham {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  color: #212529;
+}
+
+.ag-theme-balham .ag-header {
+  background-color: #ffffff;
+  color: #212529;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.ag-theme-balham .ag-root {
+  border: 1px solid #dee2e6;
+}
+
+.ag-theme-balham .ag-header-cell, .ag-theme-balham .ag-header-group-cell {
+  border-style: solid;
+  border-color: #dee2e6;
+  padding-left: 8px;
+  padding-right: 4px;
+  border-width: 0;
+}
+
+.ag-theme-balham .ag-row-even {
+  background-color: rgba(0,0,0,.05) !important;
+}
+
+#time-picker-wrapper.light #time-picker .time-picker-clock > button.active,
+#time-picker-wrapper.light
+  #time-picker
+  .time-picker-clock
+  .time-picker-clock-arrow,
+#time-picker-wrapper.light
+  #time-picker
+  .time-picker-clock
+  .time-picker-clock-origin,
+#time-picker-wrapper.light
+  #time-picker
+  .time-picker-clock
+  .time-picker-clock-arrow
+  span {
+  background: #87b700 !important;
+}
+
+.form-check,
+label {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #000;
+  font-weight: bold;
+}
